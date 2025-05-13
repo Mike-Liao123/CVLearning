@@ -341,3 +341,410 @@ Thank you very much.
 Warm congratulations and deep gratitude to our pioneers !
 Also thanks a lot to all  colleague for your hardworking and strive ,especially this period ,always follow  our  passion \self-confidence \persistence \profession \sincerity principle ,make a unite effort ,stick to our posts ,try our best to perform  the responsibility, which is the greatest support we can provide for our company .
 No excuse !Nothing is impossible ,Never give up !"Let us keep faith in ourselves and our company, knowing that by passing through storms we will finally become stronger."
+
+                    ZTE CloudStudio - A Leading Cloud O&M Solution With Most Abundant Telecom Enhancement
+
+Should we start?ok,let's start,so thank you everybody,my name is Mike,Cloud Core Network Solution Manager from ZTE.
+
+Today in my session,I will introduce ZTE CloudStudio Solution- A Leading Cloud O&M Solution With Most Abundant Telecom Enhancement ,just tell you ZTE how to enable cloud operation transformation for ICT industry,if you allow ,let's continue,if you has any question,please let me know,ok,so
+
+Let's move to the agenda today,it was devided into three parts,the first part,we will take overview Why CT O&M require telecom enhancement,this is driven by a lot of trends and challenges,for example,with the large popular using of cloud technology in telecom industry,not only service layer need O&M,but also cloud layer need to be O&M,another example,complicated orchestration and network slice needs intellegent operation,since having such kinds of trends and challenges,how to catch up?so the main part is the second part,zte will give cloudstudio solution with most abundant telecom enhancement to our customers,and at last,we will take a glance of ZTE CloudStudio deployment and experience in global of the world.
+
+Ok,so let's have a look,new demands for future network evolution:
+No.1,Diverse services are booming rocketly,on one hand,with the large popular using of smart phone and  OTT service,on the other hand,5G is coming ,the applications of more traffic，low latency，massive connectivities will become more and more.
+No.2,Rapid innovation,nowadays more focus on service innnovation,according to our engineering experience,in the legacy network,the period of deploying new service for commercial use needs nearly 6 months,it is so long time to make new service to catch up market requirement,the time should be shorten.
+No.3,Cost saving,in the traditional ,the network is rigid pipe, each network element needs different O&M and most of them need manual operation.When facing to cloud plaform ,this kind of situation need to be changed,should make operation work more flexible,automatic and intelligent.
+So in briefly speaking,with the popular using of cloud technology and 5G dirven,the cloud network operation also should be automatic and intelligent and on demand.This is the first main point,
+
+and the second point,since having such kind of new demands,cloud network management architecture are also facing a lot of challenges,as we can see from this figure:
+Challenge 1,cloud management and service management are been separated,requires two views of OSS and NFVO, it is not convenient for related management.
+Challeng 2,cloud management operation needs to switch over among multiple systems, lacking of unified portal, difficult to use.
+Challeng 3,the interface standard between Os-Ma, Ve-VNFM is not mature, difficult for third-part integration
+
+Since there are a lot of new demands and challenges ,how to slove this problem ,not only facing by operators, but also facing by our vendors,what's kind of solution our ZTE,as a mainstream provider,can offer,
+so let's continue the second part,zte CloudStudio solution with most abudant telecom enchancement.
+
+As we can see from this slide,we can offer the first carrier-grade devops solution---CloudStudio solution.As we know ,the method of devops already brought a lot of benefit to IT area,it can make design on-demand,service shorten to market, make IT infrastrucute operation more sufficent and intellegent.Our ZTE also know importance of devops and use it into CT area,and also enchance it.In this way,it can provide a set of complete solution not only including design domain ,but also orchastration domain and assurace domain,it can cover develop procedure and operation procedure,make O&M work on-demand  and intellgent,furthermore ,it can integrated with the 3rd part platform ,portal server and application platform smoothly.
+
+Ok,we know good design is the first step to success in daily life,telecom industry is also the same,fortunately ZTE CloudStudio solution is just based on-demand flexbile design,it can provide excellent design portal,it can smartly uniform service provisioning and service assurance .as we can see from the left part,the service provisioning can offer order decomposing,service procedure,resource instance and service activation,in the right part of figure,we can see it can offer complete service assurance,it can collect the data,monitor service,analyze service and excute policy.In the way,make process design,resource design,policy design and assurance design enabling each other.
+This is first key point of zte cloudstudio solution,agile design ,let's continue to the second key point,automatic deployment.
+
+We can use CloudStudio depoly tool to do E2E integrated deployment,it can finish hardware, virtualization layer, NS and VNF integrated installation and deployment. and most of this deploy procedure can automatic,it can  HW self-detection, SW self-installation, NS self-orchestration, NS self-test.and what's more ,it can customized the deploy procedure according to different scenarios.So here ,I will frankly to say,this is very intellegent tools, and by the way,we develop one tools named daizy,not only has been popular commerical used but also riched the openstack communites' components.Regarding to this point,in the latter slide,we can tough on more details about it.
+
+This is the second key point--automatic deployment,and the third key point is intellgent O&M.
+Our solution can also provide closed-loop assurance to assist intelligent O&M,
+It can offer powerful O&M assurance ability,it can use the method of centralized monitoring, application management, centralized resource, real-time monitoring and other ways to improve system assurance ability.
+It can support automated O&M closed-loop,Self-healing closed-loop: detect failure, trigger self-healing policy, automatically restore the problem.
+It can also support manual O&M closed-loop,if the failure cannot be automatically restore, the system automatically distributes a O&M work order to carry out the manual O&M closed-loop.
+In briefly speaking,we use both automated O&M way and Manual O&M way to provide closed-loop assurance.
+
+Let's take a more intu'itio'nistic overview.This is Dashboard,which can monitor whole network state,as we can see from this picture,there are many kinds of meters to show the network state.
+It can evaluate global health state , monitor global VNF and NS state.  
+Dashboard can display O&M, resource, alarm, performance, etc.
+Multi-layer data association can display physical ,virtual and service layers.
+E2E alarm association can display across wireless, transport, core network and other networks.
+So it is a very excellent dashboard.
+
+And what's more ,we can setup root cause association analysis based on big data concept and artifical intelligence technology to troubleshooting rapidly.As we known,nowaday,big data concept and artifical intelligence technology are large popular used in the IT areas/Inernet industry,they can grasp the root cause troubleshooting accurately and offer intellegent O&M.
+And also,zte reconginzed the importance of big data and AI technology and develop it into CT areas/telecom industry,and bring benefits for operators.
+As per the point,I will give you an in-depth presentation/analysis on it,(the main idea just like this/I wanna elaborate this point/elaborate as follows)so how to do it?
+Step one, data collecting, collect the datas such as resource usage,alarm logs,performance data from the system.
+and then Step two,what should do to this datas,data clean and data analysis ,we have AI based leaning system,online learning,offline learning on all these datas and build a multi-dimensional association cause knowledge database,including but not limited to alarm code association,location association ,performance association and etc.
+and Step three,run the knowledge database,it can give horizontal alarm association analysis and vertical association analysis,in this way it can rapidly find root cause,it is a intellegent O&M.
+
+Ok ,so let's take a summary,CloudStudio solution has three highlights.
+
+Highlight 1,it can offer agile design,it can offer what you see in what you get design and this kind of solution can deploy the network design in serval minutes. and furthermore,extensive template library can pre-integrated with thousands of CT and IT applications and components.
+
+Highlight 2,it can offer automated deploy
+it can deploy NF/NS in serval minutes and One-key to deploy HW / VIM /APP automatically.
+
+Highlight 3,it can offer intelligent O&M.
+make O&M automatic, policy-driven elastic self-healing in seconds
+it can give intelligent analysis and O&M,it can offer comprehensive monitoring, intelligent RCA.
+
+So let's move to the last part,we will take a glance of ZTE CloudStudio deployment and experience in global of the world.Firstly ,let's show one slide,actually ,until now ,I will frankly to say,zte is the leader of cloud telecom industry with most abundant deployment,so we have more than 360 cases,including commerical projects and Poc cases by the end of 2018Q2,it is the No.1 in the industry.
+So in this slide,it show you some main cases by the end of 2018Q2,for example,
+
+In the telecom Australia Velcom Belarus,we have the world's 1st full virualized core network,plus zte Cloudstudio management system,plus zte TECS and plus HPE hardware.
+
+And in the VEON,do you know VEON ,it is a Russian telecom group,we are the solo NFVI provider in 12 countries and vEPC in 9 countries,some of them are already commerical used in CIS countries and Ukraine,plus zte cloudstudio management system and NFVI. 
+
+And in Telefonica, ZTE got the contract of 7 Latin American countries to bulid vIMS  by multinational orchestration, plus our cloudstudio management system and NFVI for telecom infrasturctures.
+
+And also in China telecom,we provide unified hybird cloud managment to manage all exiting 50 Data Centers,to manage all hardware from different vendors,to manage all resources from ZTE ,from VMvare,from Redhat,so it is cloud management systems.
+
+Actually we have some other references,just like the Virtual Messaging and cloudstudio platform in 3 or 4 Orange Group countries and also build the world largest vHLR/vHSS and cloudstudio platform in VEON Bangladesh. 
+
+I wouldn't emphaize one by one ,in the later slides,I will elabrate some sectional details.
+
+Ok,so let's come to case studies,this case study is Multi-vendor Integration for the VEON,actually zte already implemented vEPC for VEON grounp in 9 counties,it was already for commerical use and also we got the contract to provide unified NFVI and unified management for all the opcos and all application,including the 3rd part apps ,such as Nokia and openmind,it is unifed NFVI and unified management.These solution not only including NFV but also SDN together,it is ,I want to say,in the industry,you can't find another project similar to this project,from scale point of view and from decouple point of view,so I would to say ,this is a model ,model project in SDN/NFV area.
+
+And also ,this is typic case I should emphasize,that's zte bulid the world's 1st fully-vitulized core network for Velcom,one of Australia Group branch in Belarus,ZTE swapped the leagcy Erisson core network including CS,PS,SDM on top of ZTE virtualized core network in 9 months,so zte provide hardware,cloudstudio,as VIM and hypervise, and management system,smoothly migrate more than 5.6M subscribers,so I wanna say,this is world's 1st full-virtualized core network,you will never found the 2rd one,so this is very good references.
+  
+Ok ,let's move to the last case ,in Shanghai telecom,so this case is also very typic.Shanghai telecom already has more than 50 data centers,distributed  in all area of Shanghai ,you know,shanghai is a big city with the large population of more than 25M people,so in each different data center,they have different hardware platform from different vendors,such as server from ZTE ,from HP and from huawei,it hard to manage.   
+So what zte provide to them ? ZTE provide E2E solution,Firstly,we can manage different hardwares from different vendors,Secondly ,we can manage different resource pool on different vendors.We put Cloudstudio on top of it,to be unified interfaces.unified interface for all O&M system and business target.And also zte Cloudstudio intergartion with exiting shanghai telecom system,for example,OSS system,BSS system,they are all merged together.
+
+So I will frankly to say,we are the vendor with most abundant telecom cloud deployment experience,we know what the operators really to need and what's kinds of the challenge during all the stages,we can help them to overcome all the challenges.
+
+So many thanks,guys,that's all.
+
+                    ZTE CloudStudio - A Leading Cloud O&M Solution With Most Abundant Telecom Enhancement
+
+Should we start?ok,let's start,so thank you everybody,my name is Mike,Cloud Core Network Solution manager from ZTE.
+
+Today in my session,I will introduce ZTE CloudStudio Solution- A Leading Cloud O&M Solution With Most Abundant Telecom Enhancement ,just tell you ZTE how to enable cloud operation transformation for ICT industry,if you allow ,let's continue,if you has any question,please let me know,ok,so
+
+Let's move to the agenda today,it was devided into three parts,the first part,we will take overview on Why CT area O&M require telecom enhancement,this is drived by a lot of trends and challenges,for example,with the large popular using of cloud technology in telecom industry,not only service layer need O&M,but also cloud layer need to be O&M,another example,complicated orchestration and network slice needs intellegent operation,since having such kinds of trends and challenges,how to catch up?so the main part is the second part,zte will give cloudstudio solution with most abundant telecom enhancement to our customers,and at last,we will take a glance of ZTE CloudStudio deployment and experience in global of the world.
+
+Ok,so let's have a look,new demands for future network evolution,
+No.1,Diverse services are booming rocketly,on one hand,with the large popular using of smart phone and  OTT service,on the other hand,5G is coming ,the applications of more traffic，low latency，massive connectivities will become more and more.
+No.2,Rapid innnovation,more focus on service innnovation,according to our engineering experience,in the legacy network,the period of deploying new service needs nearly 6 months,it is so long time to make new service to catch up market requirement,the time should be shorten.
+No.3,Cost saving,in the traditional ,the network is rigid pipe, each network element needs different O&M and even manual operation,this kind of situation need to be changed,should make operation work more flexible,automatic and intelligent.
+So in briefly speaking,with the popular using of virtualization technology,the virtualized network operation also should be automatic and intelligent.This is the first main point,
+
+and the second point,since having such kind of new demands,cloud network management architecture are also facing a lot of challenges,as we can see from this figure,
+Challenge 1,cloud management and service management are been separated,requires two views of OSS and NFVO, it is not convenient for collaborative management.
+Challeng 2,cloud management operation needs to switch over among multiple systems, lacking of unified portal, difficult to use.
+Challeng 3,the interface standard between Os-Ma and Ve-VNFM is not mature, difficult for third-parity integration
+
+Since there are a lot of new demands and challenges ,how to slove this problem ,not only facing by operators, but also facing by our vendors,what's kind of solution our ZTE,as a mainstream provider,can offer,
+so let's continue the second part,zte CloudStudio solution with most abudant telecom enchancement.
+
+As we can see from this slide,we can offer the first carrier-grade devops solution---CloudStudio solution.As we know ,the method of devlop already bringed a lot of benefit to IT area,it can make service shorten to market, make IT infrastrucute operation more sufficent and intellegent.Our ZTE also know importance of such kind of method and use it into CT area,and also enchance it.In this way,it can provide a set of complete solution not only including design domain ,but also orchastration domain and assurace domain,it can cover develop procedure and operation procedure,make O&M work  on demand  and intellgent,furthermore ,it can integrated with the 3rd part platform ,portal server and application platform smoothly.
+
+OK,we know good design is the first step to success in daily life,telecom industry is also the same,fortunately ZTE CloudStudio solution is just based on-demand flexbile design,it can provide excellent design portal,it can uniform service provisioning and service assurance.as we can see from the left part,the service provisioning can offer order decomposing,service procedure,resource instance and service activation,in the right part of figure,we can see it can offer complete service assurance,it can collect the data,monitor service,analyze service and excute policy.In the way,make process design,resource design,policy design and assurance design enabling each other.
+This is first key point of our cloudstudio solution,agile design ,let's continue to the second key point,automatic deployment.
+
+We can use CloudStudio depoly tool to do E2E integrated deployment,it can finish hardware, virtualization layer, NS and VNF integrated installation and deployment. and most of this deploy procedure can automatic,it can  HW self-detection, SW self-installation, NS self-orchestration, NS self-test.and what's more ,it can customized the deploy procedure according to different scenarios.So here ,I will frankly to say,this is very good tools and by the way,we develop one tools named daizy,not only popular commerical used but also riched the openstack communites' components.Regarding to this point,in the latter slide,we can tough on more details about it.
+
+This is the second key point--automatic deployment,and the third key point is intellgent O&M.
+Our solution can also provide Closed-loop Assurance Assists Intelligent O&M,
+It can offer powerful O&M assurance ability,it can use the method of centralized monitoring, application management, centralized resource, real-time monitoring, alarm association monitoring and other approaches to improve system assurance ability.
+Automated O&M closed-loop,Self-healing closed-loop: detect failure, trigger self-healing policy, automatically restore the problem.
+Elastic closed-loop: detect exceptional index, trigger elastic policy, dynamically adjust resource.
+Manual O&M Closed-loop,if the failure cannot be automatically restore, the system automatically distributes a work order and intelligently schedule related O&M resource to carry out the manual O&M closed-loop.
+In briefly speaking,we use automated O&M way and Manual O&M way to provide closed-loop assurance.
+
+Let's take a more intu'itio'nistic overview.This is Dashboard,which can monitor whole network state,as we can see from this picture,there are many kinds of KPI meter to show the network state.such as,
+Global health state evaluation, monitor global VNF and NS state.  
+Dashboard display of O&M, resource, alarm, performance, etc.
+Multi-layer data association display of physical ,virtual and service layers.
+E2E alarm association display across wireless, transport, core network an other networks.
+
+And what's more ,we setup up root cause association analysis based on big data concept and artifical intelligence technology to troubleshooting rapidly.As we known,nowaday,big data concept and artifical intelligence technology are large popular used in the IT areas/Inernet industry,they can grasp the user behavior accurately and offer intellegent operation.
+And also,zte reconginzed the importance of big data and AI technology and develop it into CT areas/telecom industry,and bring benefits for operators.
+As per the point,I will give you an in-depth presentation/analysis on it,(the main idea just like this/I wanna elaborate this point/elaborate as follows)so how to do it?
+Step one, data collecting, collect the datas such as resource usage,alarm logs,performance data from the system.
+and then Step two,what should do to this datas,data clean and data analysis ,we have AI based leaning system,online learning,offline learning on all these datas and build a multi-dimensional association cause knowledge database,including horizontal alarm association analysis across wireless, transport and core and vertical association analysis of service/ virtual/ physical resource.
+and Step three,run the knowledge database,it can give multi-dimensional association analysis across layer and special network to rapidly find root cause,it is a intellegent O&M.
+
+Ok ,so let's take a summary,CloudStudio solution has three highlights.
+can bring significant business benefits,the real benefits to our customers. 
+Highlight 1,it can offer agile design,what you see in what you get WYSIWYG design to finish network design in 3 minutes
+Extensive template library pre-integrated with thousands of CT and IT APPs and components
+
+Highlight 2,it can offer automated deploy
+it can deploy NF/NS in serval minutes and One-key to deploy HW / VIM / MANO /APP automatically.
+
+Highlight 3,it can offer intelligent O&M.
+Automated O&M: policy-driven elastic self-healing in seconds
+Intelligent analysis: comprehensive monitoring, intelligent RCA.
+
+so let's move to the last part,we will take a glance of zte presens on CloudStudio deployment and experience.
+Firstly ,let's show one slide,Actually ,until now ,I will frankly to say,zte is the leader of telecom cloud industry with most abundant   
+deployment,so we have more than 360 cases,including commerical projects and Poc cases by the end of 2018Q2,it is the No.1 in the industry.
+so in this slide,it show you some main cases by the end of 2018Q2,for example,
+
+In the telecom Arstraulia Velcom Belarus,we have the world's 1st full virualized core network,plus zte Cloudstudio,plus zte TECS and plus zte hardware.
+
+And in the VEON,do you know VEON ,it is a Russian telecom group,we are the solo NFVI provider in 12 countries and vEPC in 9 countries,some 
+of them are already commerical used in CIS countries and Ukraine,plus zte cloudstudio and NFVI. 
+
+And in Telefonica, ZTE got the contract of 7 Latin American countries to bulid vIMS  by multinational orchestration, plus our cloudstudio and NFVI for telecom infrasturctures.
+
+And also in China telecom,we provide unified cloud managment to manage all exiting 50 Data Centers,to manage all hardware from different 
+vendors,to manage all resources from ZTE ,from VMvare,from Redhat,so it is cloud management systems.
+
+Actually we have some other references,just like the Virtual Messaging and cloudstudio platform in 3 or 4 Orange Group countries and also build the world largest vHLR/vHSS and cloudstudio platform in VEON Bangladesh. 
+
+Ok,so let's come to case studies,this case study is Multi-vendor Integration for the VEON,actually zte already implemented vEPC for VEON grounp in 9 counties,it was already for commerical use and also we got the contract to provide unified NFVI for all the opcos and all application,including the 3rd part apps ,such as Huawei,Nokia and openmind,it is unifed NFVI and deployments.These solution not only including NFVI but also SDN together,it is ,I want to say,in the industry,you can't find another project similar to this project,from scale opint of view and from decouple point of view,so I would to say ,this is a model ,model project in SDN/NFV area.
+   
+  The second typic case is what we did in Telefonica,actually 2016 we got the contract,from Telefonica,zte was invited to build virtualized IMS to 7 branches of Telefonica in Latin America, zte provided IMS applications and ZTE own TECS Virtulization products,now it is already commerical use and it can offered intelligent automated O&M,reduce workload by 70%.
+
+ And also ,this is one case I should emphasize,that's zte bulid the world's 1st fully-vitulized core network for Velcom,one of Australia Group branch in Belarus,ZTE swapped the leagcy Erisson core network including CS,PS,SDM on top of ZTE virtualized core network in 9 months,so zte provide hardware,TECS,as VIM and hypervise,open stack on top of more than 20 applications,and smooth migration of more than 5.6M subscribers,so I wanna say,this is world's 1st full-virtualized core network,you will never found the 2rd one,so this is very good references.
+  
+OK ,let's move to the last case ,in Shanghai telecom,so this case is also very typic.Shanghai telecom already has more than 50 data centers,distributed  in all area of Shanghai ,you know,shanghai is a big city with the large population of more than 25M people,so in each different data center,they have different hardware platform from different vendors,such as server from ZTE ,from HP and from huawei,it hard to manage and in Shanghai telecom they also run public cloud business,for cloud connection,cloud security and cloud computing and cloud storage.so in normal case you don't have business enable and self-serice and administration portals,how they do this business,cloud business, they rely on people,normally they need some hours and days to active one cloud services,it is insufficient.
+   
+So what zte provide to them,zte provide E2E solution,firstly we can manage different hardwares from different vendors,Secondly ,we can manage different resource pool on different vendors,ZTE TECS,VMware,Redhat(redhat I didn't mark here,actually it is there),and also they try to bulid other resource pool.
+we put Cloudstudio on top of it,to be unified interfaces.On top of openstack ,we build very big cloud resource management system and big enable system,on the top ,unified interface for all O&M system and business target.So also zte TECS intergartion with exiting shanghai telecom system,for example,OSS system,BSS system,they are all merged together.
+   
+So how we manage to VMware resource pool,we have adopter API interface,we put openstack TECS in between top with vCenter,intertally we matching between VMware parameters to openstack parameters,so it enable shanghai telecom only need to realize on zte TECS,they don't need VMware vCenter anymore,because in our great interface to recevice all lifecycle management operation system on portal,all bottom is VMware resource,you just run one portal to manage all resource pool,whatever, ZTE ,vmware or redhat.so it makes your O&M more sufficient.
+
+And also,we are not only resoure management but also bring a agile ,automatic pulic enabler in shanghai telecom,to let you have E2E mintue or second level E2E public cloud service action and orchastration ,because of they have different pulic service,such as security,stroage service,so we provide cloud management system for them.
+
+So I will frankly to say,we are the vendor with most abundant telecom cloud deployment experience,we know what the operators really to need and what's kinds of the challenge during all the stages,we can help them to overcome all the challenges.
+So many thanks,guys,that's all.
+ZTE Cloud Platform Solution
+Should we start?ok,let's start,so thank you everybody,my name is Mike,Cloud Core Network Solution manager from ZTE.
+
+Today in my session,I will introduce ZTE cloud platform solution,just tell you ZTE how to bulid one cloud platform for ICT industry,if you allow ,let's continue,if you has any question,pls let me know,ok,so
+
+Let's move to the agenda today,it was devided into four parts,the first part,we will take overview on industry trends,there are two kinds of trends,one trend is telecom service developed,the other is Value of NFV Transformation For Telecom Operators,since having such kinds of trends,how to catch up?so the main part is the second part,zte will give TECS solution to our customers,and then how to use TECS solution build network,zte will give suggestion on Deployment and Evolution ,and at last,we will take a glance of ZTE ICT Transformation Experience in global of the world.
+
+Ok,so let's have a look,the developing trends of Telecom Service Development,first let's review telecom technology,in traditional,telecom network is closed network,sufficent newtork and strictly follow 3GPP standard,the telecom services are all per-defined,in briefly speaking ,it is very sufficent network when facing traditional serivce like 2G/3G voice and internet service,however, with the requirements of service,cost and innvation changed, especially, with large popular using of IOT and OTT serivce,this kind of network has many blocknecks,the network structure should be changed.
+
+This is the first main point,the second main point is NFV technologies polpular used in the IT industry,the main top operators such as Vodafone,T-mobile and AT&T telecom also think to changed their CT network to NFV infrastructure, let's have a look one by one, what they really want to learn from IT area,as we konw,Vodafone is the No.1 telecom operator in global of the world,the most important thing to them is enlarge their business,since the human network serivce has touch the ceiling,so they try to enboarden their serivce in internet of thing area,they learn IT area to decouple software and hardware and deploy their serivce as fast as possible,this idea is very useful for vertical industry. Next one ,T-Mobile operator from Germany,as we konw Germany is one very strictest country,they learn from NFV technogy by software,they want to build telecom service as software market,so T-moblie branches can build their network and service by picking up software from software warehouse,so this is what T-mobile want. And so what AT&T want to do,
+they are very radical,they want to remove their CT genes and totally accept IT genes,they even change their organizational structure to follow IT area,
+by the way ,they already changed their edge network and access area to NFV structure.
+so we can see,the main top operators already try to their network common infrastructure,agile and more open.
+
+let's continue to have a look, Construction Strategy for CT Cloud and IT Cloud in operators in global of the world,it is the current consensus of mainstream operators to construct CT cloud and IT cloud respectively by Y2020,and then ,as the business mode becomes more clear,it will combo CT and IT cloud around Y2025.As we can see,from the figure,the main stream operators such as Orange,AT&T,Vodafone,T-mobile,Telefonica will construct CT cloud independently, guided by the core network planning department.
+
+Since there are a lot of telecom developing trends ,how to catch up them, and what's kind of solution our ZTE,as a mainstream provider,can offer,so let's continue the second part,zte TECS solution.
+
+In our zte solution,we think that,firstly ,our TECS solution must follow ETSI NFV standards and provides NFVI and VIM functionality in NFV architecture,as we can see from the figure,The NFVI layer including TECS Compute/TECS Storage/TECS Network component, mainly implements virtualization of computing resources, storage resources, and network resources.The VIM layer including TECS Director + TECS OpenStack + TECS OpenPalette,mainly implements unified management of infrastructure resources,in the latter slice,we will touch on more details about them.
+
+In this slide,just show you TECS system architecture,totally divided six parts,firstly,TECS Director:
+The main function is offering Unified management platform for distributed DCs/O&M, Cross-DC management
+then, TECS OpenStack:Enhancement upon OpenStack/Infrastructure management
+TECS OpenPalette：Carrier-grade enhancement upon Kubernetes/Container management
+TECS Compute:Compute virtualization, using KVM as Hypervisor，using Docker as container.
+TECS Network:Network virtualization, providing OVS and VEG/Cooperating with SDN Controller to provide a  complete SDN solution
+TECS Storage:Storage virtualization, supporting the CEPH-based solution.
+
+Let's take more details, TECS Director Software Architecture,as we can see from this slide,it can offers unified portal,user-self portal and administrator portal,it can provide maintenance management,such as serivce catalog,service mgt,service measurement and so on,it also supply operation mgt,just like configuration mgt,report mgt and so on.In the bottom layer--resource management domain,it can provide resource mgt,manage the resources such as VM, Container and Bare Metal.
+
+Let's continue another architecture,TECS OpenPalette Software Architecture,this is ZTE self-defined layer and product,in our openpalette product,we provide container engine and container orchestration to enhace the compute,the storage and the network layer. and what's more ,we defined Container as a service in Paas platform to enhace high performance and telecom network.
+
+Next slide,just show you TECS OpenStack Software Architecture,it can offer excution services,Execution Services are mainly composed by native components of OpenStack.it also can provide operation services, To meet with the Telecom-level service requirements, components related with hardware management, management portal, alarm, performance processing and reliability functions have been added.
+
+Next,TECS Storage Software Architecture,it can provide
+Performance acceleration: Memory management and thread scheduling optimization
+Data recovery: Configurable data recovery policy
+Block interface enhancement: Support standard FC/iSCSI protocol
+File interface enhancement: Support standard NFS/CIFS protocol
+Object interface enhancement:  Supplement S3 protocol interface
+Deployment enhancement: Shorter cluster deployment time; online expansion and upgrade.
+Visual O&M: Visual HW resource; log management,  alarm customization and report, performance statistic, and other supplementary functions.
+
+In the upper slides,we we introduced TECS Director / TECS OpenPalette/ TECS OpenStack and TECS storage,we can make a conclusion,This is CT area learned from IT area and  enhanced function over IT area ,so we can say Technologies are unbounded, Applications are different.since IT is Horizontal, centralized architecture bearing compute/storage-intensive services, pursuing scale effect and low cost.
+while CT is Layered, distributed architecture bearing network-intensive services, pursuing high performance, high reliability and flexible orchestration.
+With the experience of CT, a deep understanding of how virtualization can better support CT services is the key to NFV system integration.
+
+OpenStack needs continuous enhancement to meet the carrier-level requirements of NFV. Open-source versions usually lag behind the development needs of telecom services.so in our solution, ZTE implements telecom enhancements in advance,now the latest version is queen version and ZTE also offer TECS 6.10 version to catch up the newest technology and Providing the CT Enhanced-Features In Advance.
+
+This slide just show you TECS telecom enhanced features,ZTE enhanced the features including but not limit to performance,deployment,security,reliability,O&M and fuction,we just need take a overview ,the telecom enhancement feature is indispensable for telecom services.
+
+So we can make a conclusion about zte distributed cloud solution,the first highlight is high speed,software acceleration and hardware acceleration,the second highlight is integration,cloud and network synergy,resource integration,and heterogeneous cloud unified mgt.the third highlight is intelligent,it can offer automation O&M,intelligent root cause analysis based on big data and AI technology.
+
+This is second part,mainly introduce zte TECS solution,zte can provide enhanced telecom virtulization products based on openstack.so in current,how to use virtulization infrastructure to deploy the network.
+let's continue the third part,
+Suggestions on Deployment and Evolution
+The first deployment is Multi-Level DC Architecture,normally we divided network into Edge DC,regional DC and Core DC,each DC depoly different plane,for example,Edge DC is used for distributed on the user plane/media plane to acheieve fast offloading of traffic, while regional DC and Core DC fous on the control plane,management plane VNFs and the centralized media plane VNFs.
+
+The second deployment is Technical Verification for Virtual Layer Construction,in this slide,the main idea is technical line,for 5G,introdcing and verfying technologies such as SDN and CEPH and container. for construction route,from core to edge,from control to forwarding.
+
+The third deployment is Deployment: Separate Construction of CT Cloud and IT Cloud,as we discussed this item in the upper slides,On the one hand, it is the current consensus of mainstream operators to construct CT cloud and IT cloud respectively by Y2020,On the other hand,Main cause of separate construction is the necessary telecom enhancement for CT cloud.
+
+The last deployment is Deployment: Cloud Network Synergy.we need build one network support SDN and NFV,it is Visual O&M of large-scale networks,and integrate mutli-DC resource pool and DCI,Micro-segmentation + security domain to achieve unified automation of border security.
+
+Another key word is Evolution: Evolution Route of Telecom Cloud Resource Pool,the roadmap just like this,before Y 2018,it designed as 3-layer architecture,2-layer decopling,and then by Y2019,it will realize 3-layer decoupling gradually ,and when Y2020,it uses microservice paas platform,and beyond Y2020,IT cloud and CT cloud will integated each other.
+
+The second Evolution: Containers are More Suitable for Business Innovations,as we know nowadays,the concept of container is popular use in CT area,becaues of its advantages of more lightweight,more rapid and more portability,ZTE also know such kind of advantage and use containers technology in CT area to innovate the business mode.
+
+The third Evolution: Value of CEPH Distributed Storage in NFVI,in current,CEPH storage is popuar distributed storage technology in NFVI,it can provide Universal server + software defined to guarantee the integration of multiple DC resources,Multiple data security protection mechanisms and ICT universal resource pools.so it can bring significant benefit for storage.
+
+The fourth Evolution: Convergent Evolution Path of CT Cloud and IT Cloud,regarding to this point,we gave details in upper slide,so I don't touch on more details here.
+
+The fivth Evolution: Unified Cloud Management, Full Integration of Resources,
+Unified Management:VM, container and bare metal/Heterogeneous resource pool/Private cloud, public cloud and hybrid cloud
+Unified Orchestration:Multi-resource orchestration/Heterogeneous pool orchestration/Cross-DC unified orchestration
+Unified Operation:Unified service catalog and self-service portal  for IaaS and PaaS  (interface integration, custom development)/Unified authentication, single sign-on.
+
+So in this part,we suggest different deployment mode and evolution path, 
+
+so let's move to the last part,ZTE ICT Transformation Experience,we will take a glance of zte experience on cloud infrasturcture deployment and experience.
+Firstly ,let's show one slide,actually ,until now ,I will frankly to say,zte is the leader of telecom cloud industry with the most abundant deployment,we have  more than 360 cases,including commerical projects and Poc cases by the end of 2017,it is the No.1 in the industry.
+so in this slide,it show you some main cases,for example,
+
+In the telecom Arstraulia Velcom Belarus,we have the world's 1st full virualized core network,plus zte TECS,plus zte hardware.
+
+And in the VEON,do you know VEON ,it is a Russian telecom group,we are the solo NFVI provider in 12 countries and vEPC in 9 countries,some of them are already commerical used in CIS countries and Ukraine. 
+
+And in Telefonica, ZTE got the contract of 7 Latin American countries to bulid mutli-tenancy vIMS for VoLTE,and also ZTE NFVI for telecom infrasturctures.
+
+And also in China telecom,we provide unified cloud managment to manage all exiting 50 Data Centers,to manage all hardware from different vendors,to manage all resources from ZTE ,from VMvare,from Redhat,so it is cloud management systems.
+
+Actually we have some other references,just like the Virtual Messaging platform in 3 or 4 Orange Group countries and also build the world largest vHLR/vHSS and NFVI platform in VEON Bangladesh. 
+
+I wouldn't emphaize one by one ,in the later slides,I will elabrate some sectional details.
+
+ Ok,so let's come to case studies/overview,this case study is Multi-National Cloud Infrastructure For VEON,actually zte already implemented NFVI for VEON grounp in 12 counties,
+some of them are already for commerical use and also we got the contract to provide unified NFVI for all the opcos and all application,including the 3rd part apps ,such as Huawei,Nokia and openmind,it is unifed NFVI and deployments.These solution not only including NFVI but also SDN together,it is ,I want to say,in the industry,you can't find another project similar to this project,from scale opint of view and from decouple point of view,so I would to say ,this is a model ,model project in SDN/NFV area.
+
+And another typical case is shanghai telecom,it is zte cloud management platform for Shanghai telecom in China,so actually Shanghai telecom has more than 50 data centers,distributed in the different area of Shanghai,and in each different data center,they have different hardware platform from different vendors,such as server from ZTE ,from HP and from huawei,the stroage from HP,EMC and firewall from the Juniper,Cisco,they have a lot of hardware platform,and each data center has different virtualized technologies,for example ,ZTE TECS,VMware,KVM,XEN and redhat,so how to realize unified management for all these different kinds of virtulized technologies,it is challenge for Shanghai telecom,so zte provide unified cloud management system to manage all these hardware and software.
+
+ And also we got a lot of industry awards and high evaluation from different researches,for example ,from IDC ,Ovum and global data to show zte NFVI    
+rated very strong, we are the leading player and got the best core network produce in 5G world awards 2016 and praise from IMS world forum for Rich   
+communications ,and telecomasia for NFV innovation.      
+actually to say,our zte cloud based on infrastructure solution are widly reconginzed by the whole industry.
+
+So here I say some contribution, just take a glance.ZTE plays very important role in different open source communities,we are the driver of devepment of open sources communities,so we are platinum members of ONAP,OPFNV and Open daylight,and we are the gold members of openstack,cloud native and DPDK, and we are also the silver members and leading contirbutor members of different kinds of open source communities.So something I would like to emphaize that is in the open stack ,in the latest verion Queen, our contribution ranks to Top 8,and in ONAP,OPNFV,CEPH,Openshift and OVS ,our contribution ranks to Top 2,and also in kubernetes ,our contribution ranks to Top 5,so we can say we are the main contirbutor and leader position of open source communities.
+
+We can open SDN/NFV Joint Lab, Foster Industry Ecosystem,we build a complete test environment: CN/RAN/BN/Service,we have some Contribution to OPNFV open source projects and we have four R&D research centers for virtulaztion platform in Nanjing,Shenzhen,shanghai in china and Dusseldorf in Germany.
+
+So the last slide,the last sentence I will make summarize today,that is due to zte has a lot of NFV /SDN experience in the CT area,I will say,we are the vendor with most abundant telecom cloud deployment experience,untill now we have more than 1200 deploment cases,from planning&design stages,integration stages,installaion&deployment stages to O&M stages,we know what the operators really to need and what's kinds of the challenge during all the stages,we can help them to overcome all the challenges.
+ So many thanks,guys,that's all.
+ZTE Cloud Platform Solution
+Should we start?ok,let's start,so thank you everybody,my name is Mike,Cloud Core Network Solution manager from ZTE.
+
+Today in my session,I will introduce ZTE cloud platform solution,just tell you ZTE how to bulid one cloud platform for ICT industry,if you allow ,let's continue,if you has any question,pls let me know,ok,so
+
+Let's move to the agenda today,it was devided into four parts,the first part,we will take overview on industry trends,there are two kinds of trends,one trend is telecom service developed,the other is Value of NFV Transformation For Telecom Operators,since having such kinds of trends,how to catch up?so the main part is the second part,zte will give TECS solution to our customers,and then how to use TECS solution build network,zte will give suggestion on Deployment and Evolution ,and at last,we will take a glance of ZTE ICT Transformation Experience in global of the world.
+
+Ok,so let's have a look,the developing trends of Telecom Service Development,first let's review telecom technology,in traditional,telecom network is closed network,sufficent newtork and strictly follow 3GPP standard,the telecom services are all per-defined,in briefly speaking ,it is very sufficent network when facing traditional serivce like 2G/3G voice and internet service,however, with the requirements of service,cost and innvation changed, especially, with large popular using of IOT and OTT serivce,this kind of network has many blocknecks,the network structure should be changed.
+
+This is the first main point,the second main point is NFV technologies polpular used in the IT industry,the main top operators such as Vodafone,T-mobile and AT&T telecom also think to changed their CT network to NFV infrastructure, let's have a look one by one, what they really want to learn from IT area,as we konw,Vodafone is the No.1 telecom operator in global of the world,the most important thing to them is enlarge their business,since the human network serivce has touch the ceiling,so they try to enboarden their serivce in internet of thing area,they learn IT area to decouple software and hardware and deploy their serivce as fast as possible,this idea is very useful for vertical industry. Next one ,T-Mobile operator from Germany,as we konw Germany is one very strictest country,they learn from NFV technogy by software,they want to build telecom service as software market,so T-moblie branches can build their network and service by picking up software from software warehouse,so this is what T-mobile want. And so what AT&T want to do,
+they are very radical,they want to remove their CT genes and totally accept IT genes,they even change their organizational structure to follow IT area,
+by the way ,they already changed their edge network and access area to NFV structure.
+so we can see,the main top operators already try to their network common infrastructure,agile and more open.
+
+let's continue to have a look, Construction Strategy for CT Cloud and IT Cloud in operators in global of the world,it is the current consensus of mainstream operators to construct CT cloud and IT cloud respectively by Y2020,and then ,as the business mode becomes more clear,it will combo CT and IT cloud around Y2025.As we can see,from the figure,the main stream operators such as Orange,AT&T,Vodafone,T-mobile,Telefonica will construct CT cloud independently, guided by the core network planning department.
+
+Since there are a lot of telecom developing trends ,how to catch up them, and what's kind of solution our ZTE,as a mainstream provider,can offer,so let's continue the second part,zte TECS solution.
+
+In our zte solution,we think that,firstly ,our TECS solution must follow ETSI NFV standards and provides NFVI and VIM functionality in NFV architecture,as we can see from the figure,The NFVI layer including TECS Compute/TECS Storage/TECS Network component, mainly implements virtualization of computing resources, storage resources, and network resources.The VIM layer including TECS Director + TECS OpenStack + TECS OpenPalette,mainly implements unified management of infrastructure resources,in the latter slice,we will touch on more details about them.
+
+In this slide,just show you TECS system architecture,totally divided six parts,firstly,TECS Director:
+The main function is offering Unified management platform for distributed DCs/O&M, Cross-DC management
+then, TECS OpenStack:Enhancement upon OpenStack/Infrastructure management
+TECS OpenPalette：Carrier-grade enhancement upon Kubernetes/Container management
+TECS Compute:Compute virtualization, using KVM as Hypervisor，using Docker as container.
+TECS Network:Network virtualization, providing OVS and VEG/Cooperating with SDN Controller to provide a  complete SDN solution
+TECS Storage:Storage virtualization, supporting the CEPH-based solution.
+
+Let's take more details, TECS Director Software Architecture,as we can see from this slide,it can offers unified portal,user-self portal and administrator portal,it can provide maintenance management,such as serivce catalog,service mgt,service measurement and so on,it also supply operation mgt,just like configuration mgt,report mgt and so on.In the bottom layer--resource management domain,it can provide resource mgt,manage the resources such as VM, Container and Bare Metal.
+
+Let's continue another architecture,TECS OpenPalette Software Architecture,this is ZTE self-defined layer and product,in our openpalette product,we provide container engine and container orchestration to enhace the compute,the storage and the network layer. and what's more ,we defined Container as a service in Paas platform to enhace high performance and telecom network.
+
+Next slide,just show you TECS OpenStack Software Architecture,it can offer excution services,Execution Services are mainly composed by native components of OpenStack.it also can provide operation services, To meet with the Telecom-level service requirements, components related with hardware management, management portal, alarm, performance processing and reliability functions have been added.
+
+Next,TECS Storage Software Architecture,it can provide
+Performance acceleration: Memory management and thread scheduling optimization
+Data recovery: Configurable data recovery policy
+Block interface enhancement: Support standard FC/iSCSI protocol
+File interface enhancement: Support standard NFS/CIFS protocol
+Object interface enhancement:  Supplement S3 protocol interface
+Deployment enhancement: Shorter cluster deployment time; online expansion and upgrade.
+Visual O&M: Visual HW resource; log management,  alarm customization and report, performance statistic, and other supplementary functions.
+
+In the upper slides,we we introduced TECS Director / TECS OpenPalette/ TECS OpenStack and TECS storage,we can make a conclusion,This is CT area learned from IT area and  enhanced function over IT area ,so we can say Technologies are unbounded, Applications are different.since IT is Horizontal, centralized architecture bearing compute/storage-intensive services, pursuing scale effect and low cost.
+while CT is Layered, distributed architecture bearing network-intensive services, pursuing high performance, high reliability and flexible orchestration.
+With the experience of CT, a deep understanding of how virtualization can better support CT services is the key to NFV system integration.
+
+OpenStack needs continuous enhancement to meet the carrier-level requirements of NFV. Open-source versions usually lag behind the development needs of telecom services.so in our solution, ZTE implements telecom enhancements in advance,now the latest version is queen version and ZTE also offer TECS 6.10 version to catch up the newest technology and Providing the CT Enhanced-Features In Advance.
+
+This slide just show you TECS telecom enhanced features,ZTE enhanced the features including but not limit to performance,deployment,security,reliability,O&M and fuction,we just need take a overview ,the telecom enhancement feature is indispensable for telecom services.
+
+So we can make a conclusion about zte distributed cloud solution,the first highlight is high speed,software acceleration and hardware acceleration,the second highlight is integration,cloud and network synergy,resource integration,and heterogeneous cloud unified mgt.the third highlight is intelligent,it can offer automation O&M,intelligent root cause analysis based on big data and AI technology.
+
+This is second part,mainly introduce zte TECS solution,zte can provide enhanced telecom virtulization products based on openstack.so in current,how to use virtulization infrastructure to deploy the network.
+let's continue the third part,
+Suggestions on Deployment and Evolution
+The first deployment is Multi-Level DC Architecture,normally we divided network into Edge DC,regional DC and Core DC,each DC depoly different plane,for example,Edge DC is used for distributed on the user plane/media plane to acheieve fast offloading of traffic, while regional DC and Core DC fous on the control plane,management plane VNFs and the centralized media plane VNFs.
+
+The second deployment is Technical Verification for Virtual Layer Construction,in this slide,the main idea is technical line,for 5G,introdcing and verfying technologies such as SDN and CEPH and container. for construction route,from core to edge,from control to forwarding.
+
+The third deployment is Deployment: Separate Construction of CT Cloud and IT Cloud,as we discussed this item in the upper slides,On the one hand, it is the current consensus of mainstream operators to construct CT cloud and IT cloud respectively by Y2020,On the other hand,Main cause of separate construction is the necessary telecom enhancement for CT cloud.
+
+The last deployment is Deployment: Cloud Network Synergy.we need build one network support SDN and NFV,it is Visual O&M of large-scale networks,and integrate mutli-DC resource pool and DCI,Micro-segmentation + security domain to achieve unified automation of border security.
+
+Another key word is Evolution: Evolution Route of Telecom Cloud Resource Pool,the roadmap just like this,before Y 2018,it designed as 3-layer architecture,2-layer decopling,and then by Y2019,it will realize 3-layer decoupling gradually ,and when Y2020,it uses microservice paas platform,and beyond Y2020,IT cloud and CT cloud will integated each other.
+
+The second Evolution: Containers are More Suitable for Business Innovations,as we know nowadays,the concept of container is popular use in CT area,becaues of its advantages of more lightweight,more rapid and more portability,ZTE also know such kind of advantage and use containers technology in CT area to innovate the business mode.
+
+The third Evolution: Value of CEPH Distributed Storage in NFVI,in current,CEPH storage is popuar distributed storage technology in NFVI,it can provide Universal server + software defined to guarantee the integration of multiple DC resources,Multiple data security protection mechanisms and ICT universal resource pools.so it can bring significant benefit for storage.
+
+The fourth Evolution: Convergent Evolution Path of CT Cloud and IT Cloud,regarding to this point,we gave details in upper slide,so I don't touch on more details here.
+
+The fivth Evolution: Unified Cloud Management, Full Integration of Resources,
+Unified Management:VM, container and bare metal/Heterogeneous resource pool/Private cloud, public cloud and hybrid cloud
+Unified Orchestration:Multi-resource orchestration/Heterogeneous pool orchestration/Cross-DC unified orchestration
+Unified Operation:Unified service catalog and self-service portal  for IaaS and PaaS  (interface integration, custom development)/Unified authentication, single sign-on.
+
+So in this part,we suggest different deployment mode and evolution path, 
+
+so let's move to the last part,ZTE ICT Transformation Experience,we will take a glance of zte experience on cloud infrasturcture deployment and experience.
+Firstly ,let's show one slide,actually ,until now ,I will frankly to say,zte is the leader of telecom cloud industry with the most abundant deployment,we have  more than 360 cases,including commerical projects and Poc cases by the end of 2017,it is the No.1 in the industry.
+so in this slide,it show you some main cases,for example,
+
+In the telecom Arstraulia Velcom Belarus,we have the world's 1st full virualized core network,plus zte TECS,plus zte hardware.
+
+And in the VEON,do you know VEON ,it is a Russian telecom group,we are the solo NFVI provider in 12 countries and vEPC in 9 countries,some of them are already commerical used in CIS countries and Ukraine. 
+
+And in Telefonica, ZTE got the contract of 7 Latin American countries to bulid mutli-tenancy vIMS for VoLTE,and also ZTE NFVI for telecom infrasturctures.
+
+And also in China telecom,we provide unified cloud managment to manage all exiting 50 Data Centers,to manage all hardware from different vendors,to manage all resources from ZTE ,from VMvare,from Redhat,so it is cloud management systems.
+
+Actually we have some other references,just like the Virtual Messaging platform in 3 or 4 Orange Group countries and also build the world largest vHLR/vHSS and NFVI platform in VEON Bangladesh. 
+
+I wouldn't emphaize one by one ,in the later slides,I will elabrate some sectional details.
+
+ Ok,so let's come to case studies/overview,this case study is Multi-National Cloud Infrastructure For VEON,actually zte already implemented NFVI for VEON grounp in 12 counties,
+some of them are already for commerical use and also we got the contract to provide unified NFVI for all the opcos and all application,including the 3rd part apps ,such as Huawei,Nokia and openmind,it is unifed NFVI and deployments.These solution not only including NFVI but also SDN together,it is ,I want to say,in the industry,you can't find another project similar to this project,from scale opint of view and from decouple point of view,so I would to say ,this is a model ,model project in SDN/NFV area.
+
+And another typical case is shanghai telecom,it is zte cloud management platform for Shanghai telecom in China,so actually Shanghai telecom has more than 50 data centers,distributed in the different area of Shanghai,and in each different data center,they have different hardware platform from different vendors,such as server from ZTE ,from HP and from huawei,the stroage from HP,EMC and firewall from the Juniper,Cisco,they have a lot of hardware platform,and each data center has different virtualized technologies,for example ,ZTE TECS,VMware,KVM,XEN and redhat,so how to realize unified management for all these different kinds of virtulized technologies,it is challenge for Shanghai telecom,so zte provide unified cloud management system to manage all these hardware and software.
+
+ And also we got a lot of industry awards and high evaluation from different researches,for example ,from IDC ,Ovum and global data to show zte NFVI    
+rated very strong, we are the leading player and got the best core network produce in 5G world awards 2016 and praise from IMS world forum for Rich   
+communications ,and telecomasia for NFV innovation.      
+actually to say,our zte cloud based on infrastructure solution are widly reconginzed by the whole industry.
+
+So here I say some contribution, just take a glance.ZTE plays very important role in different open source communities,we are the driver of devepment of open sources communities,so we are platinum members of ONAP,OPFNV and Open daylight,and we are the gold members of openstack,cloud native and DPDK, and we are also the silver members and leading contirbutor members of different kinds of open source communities.So something I would like to emphaize that is in the open stack ,in the latest verion Queen, our contribution ranks to Top 8,and in ONAP,OPNFV,CEPH,Openshift and OVS ,our contribution ranks to Top 2,and also in kubernetes ,our contribution ranks to Top 5,so we can say we are the main contirbutor and leader position of open source communities.
+
+We can open SDN/NFV Joint Lab, Foster Industry Ecosystem,we build a complete test environment: CN/RAN/BN/Service,we have some Contribution to OPNFV open source projects and we have four R&D research centers for virtulaztion platform in Nanjing,Shenzhen,shanghai in china and Dusseldorf in Germany.
+
+So the last slide,the last sentence I will make summarize today,that is due to zte has a lot of NFV /SDN experience in the CT area,I will say,we are the vendor with most abundant telecom cloud deployment experience,untill now we have more than 1200 deploment cases,from planning&design stages,integration stages,installaion&deployment stages to O&M stages,we know what the operators really to need and what's kinds of the challenge during all the stages,we can help them to overcome all the challenges.
+ So many thanks,guys,that's all.
+
